@@ -10,8 +10,9 @@
 ### Important setting to keep in mind
 
 Controlling how deterministic the model is when generation completion for prompts. Keep the the following parameters low if you are looking for a more diverse response
-	⁃	Temperature
-	⁃	top_p 
+##
+Temperature
+top_p 
 
 ### PROMPT Vulnerabilities
 
