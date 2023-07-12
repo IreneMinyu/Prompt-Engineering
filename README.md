@@ -66,7 +66,7 @@ One application where LLMs are quite effective is code generation. Copilot is a 
 
 Perhaps one of the most difficult tasks for an LLM today is one that requires some form of reasoning. Reasoning is one of the most interesting areas due to the types of complex applications that can merge from LLMs. Current LLMs struggle to perform reasoning tasks so this requires even more advanced prompt engineering techniques. 
 
-### Prompt engineering techniques
+## Prompt engineering techniques
 
 #### Few-shot prompts
 Provides exemplars in prompts to steer the model towards better performance.
