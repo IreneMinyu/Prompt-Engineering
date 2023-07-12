@@ -1,5 +1,5 @@
 # Prompt-Engineering
-Prompt Engineering
+
 
 ## Components of a prompt
 	⁃	Instructions
@@ -7,11 +7,15 @@ Prompt Engineering
 	⁃	Input data
 	⁃	Output indicator
 
-Important setting to keep in mind: controlling how deterministic the model is when generation completion for prompts. Keep the the following parameters low if you are looking for a more diverse response
+### Important setting to keep in mind
+
+Controlling how deterministic the model is when generation completion for prompts. Keep the the following parameters low if you are looking for a more diverse response
 	⁃	Temperature
 	⁃	top_p 
 
-• Model safety - Prompt engineering can help identify risky behaviors of LLMs which can help to reduce harmful behaviors and risks that may arise from language models
+### PROMPT Vulnerabilities
+
+Model safety - Prompt engineering can help identify risky behaviors of LLMs which can help to reduce harmful behaviors and risks that may arise from language models
 • Prompt injections - Aim to find vulnerabilities in LLMs. Some common issues include:
 	⁃	Prompt injection - Prompt injection is used to hijack an LM’s output by injecting an untrusted command that overrides instructions of a prompt. This could easily happen if you just concatenate your prompt with another user generated output. 
 	⁃	Prompt leaking - Aims to force the model to spit out information about its own prompt. This can lead to leaking of either sensitive, private, or information that is confidential.
