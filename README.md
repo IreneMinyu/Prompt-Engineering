@@ -15,7 +15,7 @@ Controlling how deterministic the model is when generation completion for prompt
 	⁃	top_p
 
 
-### PROMPT Vulnerabilities
+## PROMPT Vulnerabilities
 
 Model safety - Prompt engineering can help identify risky behaviors of LLMs which can help to reduce harmful behaviors and risks that may arise from language models. Prompt injection aim to find vulnerabilities in LLMs.
 
