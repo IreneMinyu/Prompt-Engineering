@@ -15,7 +15,7 @@ Controlling how deterministic the model is when generation completion for prompt
 	⁃	top_p
 
 
-## PROMPT Vulnerabilities
+## PROMPT VULNERABILITIES
 
 Model safety - Prompt engineering can help identify risky behaviors of LLMs which can help to reduce harmful behaviors and risks that may arise from language models. Prompt injection aim to find vulnerabilities in LLMs.
 
@@ -66,7 +66,7 @@ One application where LLMs are quite effective is code generation. Copilot is a 
 
 Perhaps one of the most difficult tasks for an LLM today is one that requires some form of reasoning. Reasoning is one of the most interesting areas due to the types of complex applications that can merge from LLMs. Current LLMs struggle to perform reasoning tasks so this requires even more advanced prompt engineering techniques. 
 
-## Prompt engineering techniques
+## PROMPT ENGINEERING TECHNIQUES
 
 #### Few-shot prompts
 Provides exemplars in prompts to steer the model towards better performance.
@@ -90,7 +90,7 @@ Generative reasoning traces - allow the model to include, track, and update acti
 The action step - allows to interface with and gather information from external sources such as knowledge bases or environments
 
 
- ## Future directions
+ ## FUTURE DIRECTIONS
 	⁃	Augmented LMs
 	⁃	Emergent ability of Los
 	⁃	Acting / Planning - Reinforcement Learning
